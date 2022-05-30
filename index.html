@@ -25,12 +25,19 @@
         onchange="preview()"
         multiple
       />
-      <label for="file-input">
+      <!-- <label for="file-input">
         <i class="fas fa-upload"></i> &nbsp; Choose A Photo
-      </label>
-      <p id="num-of-files">No Files Chosen</p>
-      <div id="images"></div>
+      </label> -->
+      <div class="imgBox">
+        <div id="images">
+          <label id="camera" class="cameraLabel" for="file-input">
+            <img class="cameraImage" src="camera.png" />
+            <p id="num-of-files">0/7</p>
+          </label>
+        </div>
+      </div>
     </div>
+
     <!--Script-->
     <script src="script.js"></script>
   </body>
