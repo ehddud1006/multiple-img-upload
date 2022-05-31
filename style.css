@@ -90,6 +90,28 @@ figure {
   margin-top: 10px;
 }
 
+#ImageWrapper {
+  position: relative;
+}
+
+#deleteImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  /* top: 0px;
+  left: 0px; */
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 10px;
+  top: 5px;
+  color: white;
+  left: 65px;
+}
+
 /* figcaption {
   text-align: center;
   font-size: 2.4vmin;
